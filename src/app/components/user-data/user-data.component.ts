@@ -28,11 +28,11 @@ getSearchedUser(searchTerm) {
 }
 
 ngOnInit(): void {
-  this.getSearchedUser('scrupycoco');
+  this.getSearchedUser('loginsysy');
   // tslint:disable-next-line:prefer-const
   let particlesJS;
   particlesJS.load('particles-js', 'particles.json', null);
-  
+
 }
 
 }
