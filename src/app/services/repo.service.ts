@@ -10,8 +10,8 @@ export class RepoService {
 
   user: Repo[] = [];
   _URL = 'https://api.github.com/users/'
-  token = '?access_token=23028f7a9fd8fad9a4a7e7d633588a079f40e019'
-  
+  token = '?access_token= ff1c45270a12d30ea78c10c6b921452120917df8'
+
   constructor(private http: HttpClient) {
   }
 
@@ -24,7 +24,7 @@ export class RepoService {
     followers: string;
     public_repos: string;
     }
-    
+
     return new Promise((resolve, reject) => {
     this.user = [];
     // tslint:disable-next-line:max-line-length
